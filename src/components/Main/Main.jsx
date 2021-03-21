@@ -9,6 +9,7 @@ import {
 } from "@material-ui/core";
 
 import useStyles from "./styles";
+import Form from "./Form/Form";
 
 const Main = () => {
   const classes = useStyles();
@@ -26,6 +27,7 @@ const Main = () => {
           Try saying: Add income for $100 in Catgegory Salary for Monday...
         </Typography>
         <Divider />
+        <Form />
       </CardContent>
       <CardContent className={classes.cardContent}>
         <Grid container spacing={2}>
