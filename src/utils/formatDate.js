@@ -1,4 +1,4 @@
-const formatDate = (date) => {
+export default (date) => {
   const d = new Date(date);
   let month = `${d.getMonth() + 1}`;
   let day = `${d.getDate()}`;
@@ -13,5 +13,3 @@ const formatDate = (date) => {
 
   return [year, month, day].join("-");
 };
-
-export default formatDate;
